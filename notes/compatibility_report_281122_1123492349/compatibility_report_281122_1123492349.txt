@@ -1,0 +1,98 @@
+Converting GML script: ${project_dir}\scripts\scr_set_view_pos\scr_set_view_pos.gml
+Converted builtin - line 5: view_xview[idx] = clamp(px, 0, room_width - view_wview[idx]) -> __view_set( e__VW.XView, idx, clamp(px, 0, room_width - view_wview[idx]) )
+Converted builtin - line 6: view_yview[idx] = clamp(py, 0, room_height - view_hview[idx]) -> __view_set( e__VW.YView, idx, clamp(py, 0, room_height - view_hview[idx]) )
+Converted builtin - line 5: view_wview[idx] -> __view_get( e__VW.WView, idx )
+Converted builtin - line 6: view_hview[idx] -> __view_get( e__VW.HView, idx )
+
+Converting GML script: ${project_dir}\scripts\scr_zoom\scr_zoom.gml
+Converted builtin - line 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 16: view_wview[0] = viewWidth -> __view_set( e__VW.WView, 0, viewWidth )
+Converted builtin - line 18: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 19: view_hview[0] = viewHeight -> __view_set( e__VW.HView, 0, viewHeight )
+
+!!! Font fnt_feature_count uses a font (life in egg) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnt_feature_count\fnt_feature_count.gms1.png
+Font fnt_score has been converted to font family Arial (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnt_score\fnt_score.gms1.png
+Font font0 has been converted to font family Arial (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font0\font0.gms1.png
+!!! Font lifeinegg uses a font (life in egg) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\lifeinegg\lifeinegg.gms1.png
+Font cursor has been converted to font family Calibri (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\cursor\cursor.gms1.png
+Converting GML script: ${project_dir}\objects\obj_panel_center\Create_0.gml
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_crash\Alarm_0.gml
+Converted builtin - line 1: view_xview[0]=4 -> __view_set( e__VW.XView, 0, 4 )
+Converted builtin - line 2: view_yview[0]=4 -> __view_set( e__VW.YView, 0, 4 )
+
+Converting GML script: ${project_dir}\objects\obj_crash\Step_0.gml
+Converted builtin - line 1: view_xview[0]=random_range(2,4) -> __view_set( e__VW.XView, 0, random_range(2,4) )
+Converted builtin - line 2: view_yview[0]=random_range(2,4) -> __view_set( e__VW.YView, 0, random_range(2,4) )
+
+Converting GML script: ${project_dir}\objects\obj_shake\Alarm_0.gml
+Converted builtin - line 1: view_xview[0]=4 -> __view_set( e__VW.XView, 0, 4 )
+Converted builtin - line 2: view_yview[0]=4 -> __view_set( e__VW.YView, 0, 4 )
+
+Converting GML script: ${project_dir}\objects\obj_shake\Step_0.gml
+Converted builtin - line 1: view_xview[0]=random_range(2,4) -> __view_set( e__VW.XView, 0, random_range(2,4) )
+Converted builtin - line 2: view_yview[0]=random_range(2,4) -> __view_set( e__VW.YView, 0, random_range(2,4) )
+
+Converting GML script: ${project_dir}\objects\obj_debug\Step_0.gml
+Converted description /// @description //
+
+Converting GML script: ${project_dir}\objects\obj_drag_test\Create_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_drag_test\Step_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview-=vmx -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) - (vmx) )
+Converted builtin - line 6: view_object=noone -> __view_set( e__VW.Object, 0, noone )
+
+Converting GML script: ${project_dir}\objects\obj_drag_test\Mouse_56.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 31: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 41: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 51: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0]=0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 12: view_xview[0]=640 -> __view_set( e__VW.XView, 0, 640 )
+Converted builtin - line 21: view_xview[0]=640 -> __view_set( e__VW.XView, 0, 640 )
+Converted builtin - line 30: view_xview[0]=1280 -> __view_set( e__VW.XView, 0, 1280 )
+Converted builtin - line 40: view_xview[0]=1280 -> __view_set( e__VW.XView, 0, 1280 )
+Converted builtin - line 50: view_xview[0]=1280 -> __view_set( e__VW.XView, 0, 1280 )
+
+Missing audiogroup for sound: 'snd_fail' - setting to default audio group
+Missing audiogroup for sound: 'snd_win' - setting to default audio group
+Missing audiogroup for sound: 'snd_play' - setting to default audio group
+Missing audiogroup for sound: 'snd_star' - setting to default audio group
+Missing audiogroup for sound: 'snd_positive' - setting to default audio group
+Missing audiogroup for sound: 'snd_sling' - setting to default audio group
+Missing audiogroup for sound: 'snd_water_fly' - setting to default audio group
+Missing audiogroup for sound: 'snd_fly' - setting to default audio group
+Missing audiogroup for sound: 'snd_speed' - setting to default audio group
+Missing audiogroup for sound: 'snd_gaurd' - setting to default audio group
+Missing audiogroup for sound: 'snd_big_small' - setting to default audio group
+Missing audiogroup for sound: 'snd_bomb' - setting to default audio group
+Missing audiogroup for sound: 'snd_feature_open' - setting to default audio group
+Missing audiogroup for sound: 'snd_feature_coll' - setting to default audio group
+Missing audiogroup for sound: 'snd_sling_launch' - setting to default audio group
+Missing audiogroup for sound: 'snd_egg_break' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action/action_another_room.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_move_to.gml'
+Added compatibility script 'action/action_next_room.gml'
+Added compatibility script 'action/action_previous_room.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
